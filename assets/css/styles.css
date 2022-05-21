@@ -305,7 +305,7 @@ a {
 @media screen and (min-width: 319px) {
 
   .preco__title {
-    font-size: 1;
+    font-size: 2;
   }
 
   .produto__title {
