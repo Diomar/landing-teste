@@ -10,13 +10,7 @@
 }
 
 /*===== Fuente y tipografia =====*/
-:root {
-  --body-font: 'Roboto', sans-serif;
-  --biggest-font-size: 1.5rem;
-  --big-font-size: 1.5rem;
-  --normal-font-size: 0.938rem;
-  --smaller-font-size: 0.75rem;
-}
+
 
 @media screen and (min-width: 968px) {
   :root {
@@ -310,10 +304,13 @@ a {
 
 @media screen and (min-width: 319px) {
 
-  .produto__title {
-    margin-bottom: .5rem;
+  .preco__title {
+    font-size: 1;
   }
 
+  .produto__title {
+    font-size: 2rem;
+  }
 
   .produto__description {
     margin-bottom: 1rem;
@@ -325,9 +322,9 @@ a {
   }
 
   .preco__button {
-    padding: 1.25rem 2rem;
-    font-size: 14px;
-
+    display: block;
+    padding: 1.25rem 1.5rem;
+    font-size: 12px;
   }
 
 }
