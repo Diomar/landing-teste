@@ -4,7 +4,7 @@
 :root {
   --first-color: #998f90;
   --primary: #c0b9b8e5;
-  --second-color: #33303D;
+  --second-color: #33303de5;
   --black-color: #111111;
   --white-color: #FFF;
 }
@@ -305,7 +305,7 @@ a {
 @media screen and (min-width: 319px) {
 
   .preco__title {
-    font-size: 2;
+    font-size: 1.5rem;
   }
 
   .produto__title {
