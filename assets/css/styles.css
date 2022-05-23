@@ -432,7 +432,6 @@ ul {
 .area__beneficios {
   display: flex;
   justify-content: center;
-  background-color: blue;
 }
 
 .area__ben-desc {
