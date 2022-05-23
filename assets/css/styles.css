@@ -427,6 +427,7 @@ ul {
   width: 400px;
   color: var(--cor-branca);
   line-height: 38px;
+  margin-top: 2rem;
 }
 
 .area__beneficios {
