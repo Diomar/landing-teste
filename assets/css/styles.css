@@ -544,46 +544,67 @@ address span {
     margin-top: -8rem;
   }
 
+  .sobre__area {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+  }
+
+  .sobre__desc h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .sobre__img {
+    display: none;
+  }
+
 }
 
 /*===== MEDIA QUERIES 400=====*/
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 425px) {
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rem;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .sobre__area {
+    height: 30rem;
+  }
+
+  .preco {
+    margin-bottom: 20rem;
+  }
+
+  .sobre__desc h2 {
+    margin-top: 8rem;
+    text-align: center;
+
+  }
+
+  .sobre {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__item h2 {
+    font-size: 20px;
+  }
+
+  .footer__item a {
+    font-size: 12px;
+  }
+
+}
 
 
-/*===== MEDIA QUERIES 320=====*/
-@media screen and (min-width: 1024px) {}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*===== MEDIA QUERIES 968=====*/
-@media screen and (min-width: 968px) {}
 
 /* ======= MEDIA QUERIE 600 ====== */
 @media (max-width: 500px) {
