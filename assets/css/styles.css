@@ -583,7 +583,6 @@ address span {
   }
 
   .sobre__desc h2 {
-    margin-top: 8rem;
     text-align: center;
 
   }
@@ -605,6 +604,10 @@ address span {
 
 /*===== MEDIA QUERIES 400=====*/
 @media screen and (max-width: 375px) {
+
+  .sobre__desc h2 {
+    font-size: 25px;
+  }
 
   .home {
     display: flex;
@@ -680,4 +683,5 @@ address span {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
+
 }
