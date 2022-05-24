@@ -21,38 +21,40 @@
 <body>
   <!-- ===== MAIN HEADER ===== -->
 
-  <nav>
-    <div class="nav__container container">
-      <a href="index.html">
-        <h4>Logo</h4>
-      </a>
-      <ul class="nav__menu" id="cor">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#beneficios">Beneficios</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#">Cotato</a></li>
-      </ul>
-    </div>
-  </nav>
+
 
 
 
   <header>
+
+    <nav>
+      <div class="nav__container container">
+
+        <div class="logo"><a href="index.html">
+            <h4>Logo</h4>
+          </a></div>
+
+        <ul class="nav__menu" id="cor">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#">Cotato</a></li>
+        </ul>
+      </div>
+    </nav>
     <!-- ===== HOME ===== -->
-    <div class="home">
+    <div class="home container">
       <!-- ===== Fundo ===== -->
-      <div class="fundo">
-        <div class="fundo__figure">
+      <div class="home__left">
+        <div class="home__fig-fundo"></div>
 
-        </div>
-
-        <div>
-          <img src="assets/img/omega3.png" alt="" class="fundo__img">
+        <div class="home__img-produto">
+          <img src="assets/img/omega3.png" alt="">
         </div>
       </div>
 
       <!-- ===== IFORMAÇÕES ===== -->
-      <div class="info">
+      <div class="home__rigth">
 
         <!-- ===== Produto ===== -->
         <div class="produto">
@@ -65,11 +67,8 @@
             cérebro agindo diretamente na memória e raciocínio....
           </p>
           <a href="#" class="artigoProduto">Ler descrição completa</a>
-        </div>
 
-        <!-- ===== ACTIONS ===== -->
-        <div>
-          <!-- ===== CANT ===== -->
+          <!-- ===== QUANT ===== -->
           <div class="quant">
             <h3 class="quant__title">Quant.</h3>
             <div class="quant__content">
@@ -78,52 +77,29 @@
               <span class="mais">+</span>
             </div>
           </div>
-        </div>
 
-        <!-- ===== PREÇO ===== -->
-        <div class="preco">
-          <span class="preco__title">R$ 60</span>
-          <a href="#" class="preco__button">ADICIONAR AO CARRINHO</a>
+          <!-- ===== PREÇO ===== -->
+          <div class="preco">
+            <span class="preco__title">R$ 60</span>
+            <a href="#" class="preco__button">ADICIONAR AO CARRINHO</a>
+          </div>
+
         </div>
       </div>
     </div>
   </header>
-
-  <!-- =========== SECTION BENEFÍCIOS =========== -->
-  <!-- <section class="beneficios " id="beneficios">
-    <div class="benef__area container">
-      <h2>Benefícios ao usar o Ômega 3</h2>
-      <div class="area__beneficios">
-        <div class="area__ben-desc">
-          <div class="item">
-            <span>Saúde Cardiovascular</span>
-            <div class="item-traco"></div>
-          </div>
-          <div class="item">
-            <span>Ação Antioxidante</span>
-            <div class="item-traco"></div>
-          </div>
-          <div class="item">
-            <span>Reforça a Memória</span>
-            <div class="item-traco"></div>
-          </div>
-          <div class="item">
-            <span>Recuperação Muscular</span>
-            <div class="item-traco"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <!-- =========== SECTION SOBRE =========== -->
 
   <section class="sobre" id="sobre">
     <div class="sobre__area container">
 
+      <div class="sobre__img">
+      </div>
+
       <div class="sobre__desc">
         <h2>O que é ômega 3?</h2>
-        <p>Seus ganhos dependem da sua saúde e mais do que apenas recuperação muscular, Ômega 3 Integralmédica é o
+        <p>Ômega 3 Integralmédica é o
           suplemento que oferta melhora no funcionamento do cérebro agindo diretamente na memória e raciocínio.</p></br>
         Além de prevenir doenças cardiovasculares e diminuir o risco de desenvolvimento de câncer. Ômega 3 é essencial
         não apenas na performance, mas também na saúde do dia a dia.</p></br>
@@ -131,10 +107,6 @@
         Quando treinamos, é comum que nosso corpo sofra adaptações como dor muscular, inflamação e queda de performance
         nos treinos seguintes. Fora isso estudos recentes demonstram que a suplementação com Ômega 3 auxilia no ganho de
         massa muscular.</p></br>
-      </div>
-
-      <div class="sobre__img">
-        dfdf
       </div>
 
     </div>
@@ -153,7 +125,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="#beneficios">Beneficios</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#">Cotato</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </div>
       <div class="footer__item">
@@ -168,7 +140,7 @@
       <div class="sociais">
         <samp>Redes Sociais</samp>
         <div class="icons__sociais">
-          <a href="" class="img__social"><i class="uil uil-instagram"></i></a>
+          <a clas='teste' href=""><i class="uil uil-instagram"></i></a>
           <a href=""><i class="uil uil-facebook"></i></a>
           <a href=""><i class="uil uil-twitter-alt"></i></a>
         </div>
@@ -180,7 +152,7 @@
       </div>
     </address>
 
-    <div class="footer__copy ">
+    <div class="footer__copy container">
       <span>© COPYRIGHT 2022
   </footer>
 
@@ -206,7 +178,7 @@
   <!-- ====== SCRIPTS ====== -->
   <script src="./main.js"></script>
 
-  <script type="text/javascript" src="./assets/js/bioep.js"></script>
+  <!-- <script type="text/javascript" src="./assets/js/bioep.js"></script> -->
 
 
 </body>
