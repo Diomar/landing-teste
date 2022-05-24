@@ -562,7 +562,7 @@ address span {
 }
 
 /*===== MEDIA QUERIES 400=====*/
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
 
   .home {
     display: flex;

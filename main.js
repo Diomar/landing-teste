@@ -16,7 +16,7 @@ addEvent(window, "load", function (e) {
     var from = e.relatedTarget || e.toElement;
     if (!from || from.nodeName == "HTML") {
       // Aqui você coloca o seu popup
-      // modal.classList.add('active');
+      modal.classList.add('active');
     }
   });
 });
