@@ -603,6 +603,54 @@ address span {
 
 }
 
+/*===== MEDIA QUERIES 400=====*/
+@media screen and (max-width: 375px) {
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rem;
+  }
+
+  .home__img-produto img {
+    left: 5rem;
+    width: 250px;
+  }
+
+  .home__fig-fundo {
+    width: 200px;
+    height: 200px;
+    margin-left: 1rem;
+  }
+
+
+  .nav__menu {
+    display: none;
+  }
+
+  .sobre__area {
+    height: 30rem;
+  }
+
+  .preco {
+    margin-bottom: 20rem;
+  }
+
+  .sobre {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__item h2 {
+    font-size: 20px;
+  }
+
+  .footer__item a {
+    font-size: 12px;
+  }
+
+}
+
 
 
 
