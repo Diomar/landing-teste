@@ -471,7 +471,7 @@ address span {
 /*===== MEDIA QUERIES 1440=====*/
 @media screen and (max-width: 1440px) {
   .home__img-produto img {
-    left: 14rem;
+    left: 11rem;
   }
 }
 
